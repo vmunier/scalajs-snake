@@ -7,7 +7,7 @@ import org.scalajs.dom.extensions._
 import org.scalajs.dom.HTMLCanvasElement
 
 trait GameVars {
-  val NbBlocksInWidth = 10
+  val NbBlocksInWidth = 40
   val FoodPeriodApparition = 15
   val MaxFoodAtSameTime = 3
 
