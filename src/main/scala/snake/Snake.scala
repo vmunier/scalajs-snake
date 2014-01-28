@@ -2,7 +2,7 @@ package snake
 import scala.scalajs.js
 
 case class Snake(head: Block, tail: List[Block] = List()) {
-  val speed: js.Number = 4 // movement in number of blocks per second
+  val speed: js.Number = 16 // movement in number of blocks per second
   val blocks = head +: tail
 
   def moveTailForward(): List[Block] = {
@@ -13,5 +13,3 @@ case class Snake(head: Block, tail: List[Block] = List()) {
     }
   }
 }
-
-
