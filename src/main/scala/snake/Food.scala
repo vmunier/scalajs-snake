@@ -4,8 +4,6 @@ object Food {
   var foods = Set[Block]()
   var foodsInDigestion = Set[Block]()
 
-  private val canvas = Canvas.canvas
-
   def addRandomFood(): Block = {
     val randomPos = availablePositions((Math.random() * availablePositions.size).toInt)
     val randomBlock = Block(randomPos, Colors.nextColor.rgb)
